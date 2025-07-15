@@ -128,11 +128,11 @@ Content-Type: application/json
   "location": "San Francisco, CA",
   "capacity": 500
 }
-<img width="1347" height="899" alt="image" src="https://github.com/user-attachments/assets/9599f804-782e-406d-a452-10636b897abb" />
+
 
 
 ```
-
+<img width="1347" height="899" alt="image" src="https://github.com/user-attachments/assets/9599f804-782e-406d-a452-10636b897abb" />
 **Response:**
 ```json
 {
@@ -224,9 +224,9 @@ Content-Type: application/json
   "name": "John Doe",
   "email": "john@example.com"
 }
-<img width="1349" height="896" alt="image" src="https://github.com/user-attachments/assets/5e91c415-daaa-410d-83bb-fac957727cf3" />
 
 ```
+<img width="1349" height="896" alt="image" src="https://github.com/user-attachments/assets/5e91c415-daaa-410d-83bb-fac957727cf3" />
 
 #### Get All Users
 ```http
@@ -347,10 +347,10 @@ CREATE TABLE users (
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-<img width="1256" height="227" alt="image" src="https://github.com/user-attachments/assets/45016815-2e8f-4cbf-a4df-214ae89c12bf" />
+
 
 ```
-
+<img width="1256" height="227" alt="image" src="https://github.com/user-attachments/assets/45016815-2e8f-4cbf-a4df-214ae89c12bf" />
 ### Events Table
 ```sql
 CREATE TABLE events (
@@ -362,9 +362,10 @@ CREATE TABLE events (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-<img width="1695" height="228" alt="image" src="https://github.com/user-attachments/assets/69f1360f-7cef-4f98-b101-036c88529e75" />
+
 
 ```
+<img width="1695" height="228" alt="image" src="https://github.com/user-attachments/assets/69f1360f-7cef-4f98-b101-036c88529e75" />
 
 ### Registrations Table
 ```sql
@@ -376,10 +377,11 @@ CREATE TABLE registrations (
   UNIQUE(user_id, event_id)
 );
 
-<img width="726" height="190" alt="image" src="https://github.com/user-attachments/assets/41a5a9d3-c505-4443-bbfa-2ae8c24b575d" />
+
 
 
 ```
+<img width="726" height="190" alt="image" src="https://github.com/user-attachments/assets/41a5a9d3-c505-4443-bbfa-2ae8c24b575d" />
 
 ## Performance Optimizations
 
