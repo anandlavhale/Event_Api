@@ -126,7 +126,7 @@ Content-Type: application/json
 
 {
   "title": "Tech Conference 2024",
-  "date_time": "2024-12-15T10:00:00.000Z",
+  "date_time": "2025-12-15T10:00:00.000Z",
   "location": "San Francisco, CA",
   "capacity": 500
 }
@@ -158,14 +158,14 @@ GET /api/v1/events/1
     "date_time": "2024-12-15T10:00:00.000Z",
     "location": "San Francisco, CA",
     "capacity": 500,
-    "created_at": "2024-01-01T00:00:00.000Z",
-    "updated_at": "2024-01-01T00:00:00.000Z",
+    "created_at": "2025-07-15T00:00:00.000Z",
+    "updated_at": "2025-07-15T00:00:00.000Z",
     "registrations": [
       {
         "id": 1,
         "name": "John Doe",
         "email": "john@example.com",
-        "registered_at": "2024-01-01T00:00:00.000Z"
+        "registered_at": "2025-07-15T00:00:00.000Z"
       }
     ]
   }
@@ -185,7 +185,7 @@ GET /api/v1/events/upcoming
     {
       "id": 1,
       "title": "Tech Conference 2024",
-      "date_time": "2024-12-15T10:00:00.000Z",
+      "date_time": "2025-10-15T10:00:00.000Z",
       "location": "San Francisco, CA",
       "capacity": 500,
       "registration_count": "2"
@@ -256,7 +256,7 @@ Content-Type: application/json
     "id": 1,
     "user_id": 1,
     "event_id": 1,
-    "registered_at": "2024-01-01T00:00:00.000Z"
+    "registered_at": "2025-10-01T00:00:00.000Z"
   },
   "message": "Successfully registered for event"
 }
@@ -383,13 +383,6 @@ Run tests with:
 npm test
 ```
 
-## Monitoring and Logging
-
-- **Winston Logger**: Structured logging with different levels
-- **Request Logging**: All HTTP requests logged
-- **Error Tracking**: Comprehensive error logging with stack traces
-- **Health Check**: `/api/v1/health` endpoint for monitoring
-
 ## Deployment
 
 The API is ready for production deployment with:
@@ -399,14 +392,3 @@ The API is ready for production deployment with:
 - Rate limiting
 - Comprehensive logging
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
