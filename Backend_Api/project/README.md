@@ -130,6 +130,8 @@ Content-Type: application/json
   "location": "San Francisco, CA",
   "capacity": 500
 }
+
+
 ```
 
 **Response:**
@@ -223,6 +225,7 @@ Content-Type: application/json
   "name": "John Doe",
   "email": "john@example.com"
 }
+
 ```
 
 #### Get All Users
@@ -261,6 +264,7 @@ Content-Type: application/json
   "message": "Successfully registered for event"
 }
 ```
+<img width="1335" height="827" alt="image" src="https://github.com/user-attachments/assets/11f7a627-bdce-499e-991d-f593a3170411" />
 
 #### Cancel Registration
 ```http
